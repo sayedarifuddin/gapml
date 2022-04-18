@@ -20,7 +20,11 @@ def main():
   uni_rating = st.slider("University Rating",1,5)
   #research = st.slider("Research Experience (0 = NO, 1 = YES)",0,1)
   
-  research = st.selectbox("Research Experience (0 = NO, 1 = YES)",0,1)
+  
+  research = st.selectbox(
+     'Research Experience (0 = NO, 1 = YES)',
+     ('0', '1'))
+  
 
   inputs = [[cgpa,gre,toefl,uni_rating,research]]
 
