@@ -3,5 +3,4 @@ primaryColor="#2878b9"
 backgroundColor="#dae5ef"
 secondaryBackgroundColor="#586e75"
 textColor="#44546a"
-href="http://fonts.cdnfonts.com/css/tenorite" rel="stylesheet"
-font-family: "stylesheet", sans-serif;                             
+font="sans serif"
