@@ -6,11 +6,11 @@ st.set_option('deprecation.showfileUploaderEncoding',False)
 model = pickle.load(open('gapml-pickle.pkl','rb'))
                 
 def main():
-  st.markdown("<h4 style='text-align: center; font-weight: bold; color: white;'>Graduate Admission Predictor</h4>", unsafe_allow_html=True)
+  st.markdown("<h4 style='text-align: center; font-weight: bold; background-color:#0068ff; color: white;'>Graduate Admission Predictor</h4>", unsafe_allow_html=True)
   #st.markdown("<h4 style='text-align: center; color: White;background-color:#DA291C'>(Made for Bangladeshi Students)</h4>", unsafe_allow_html=True)
   st.markdown('#')
 
-  cgpa = st.slider("**CGPA**",0.0,4.0)
+  cgpa = st.slider("CGPA",0.0,4.0)
   gre = st.slider("GRE Score",0,340)
   toefl = st.slider("TOEFL Score",0,120)
 
