@@ -6,7 +6,7 @@ st.set_option('deprecation.showfileUploaderEncoding',False)
 model = pickle.load(open('gapml-pickle.pkl','rb'))
                 
 def main():
-  st.markdown("<h4 style='text-align: center; color: #0068ff;'>**US Graduate Admission Predictor**</h4>", unsafe_allow_html=True)
+  st.markdown("<h4 style='text-align: center; color: #0068ff;'>"**US Graduate Admission Predictor**"</h4>", unsafe_allow_html=True)
   #st.markdown("<h4 style='text-align: center; color: White;background-color:#DA291C'>(Made for Bangladeshi Students)</h4>", unsafe_allow_html=True)
   st.markdown('#')
 
