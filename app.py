@@ -21,8 +21,8 @@ def main():
   #research = st.slider("Research Experience (0 = NO, 1 = YES)",0,1)
   
   
-  research = st.selectbox(
-     'Research Experience (0 = NO, 1 = YES)',
+  research = = st.radio(
+     "Research Experience (0 = NO, 1 = YES)",
      ('0', '1'))
   
 
