@@ -2,5 +2,5 @@
 primaryColor="#2878b9"
 backgroundColor="#dae5ef"
 secondaryBackgroundColor="#586e75"
-textColor="#fafafa"
-font="sans serif"
+textColor="#44546a"
+font-family: 'Tenorite', sans-serif;                             
