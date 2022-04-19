@@ -17,8 +17,14 @@ def main():
   #sop = st.slider("SOP Score",0.0,5.0,step=0.5)  
   #lor = st.slider("LOR Score",0.0,5.0,step=0.5)
   
+  #uni_rating = st.slider("University Rating",1,5)
+  #research = st.slider("Research Experience (0 = NO, 1 = YES)",0,1)
+  
+
+with st.expander("See explanation"):
   uni_rating = st.slider("University Rating",1,5)
   research = st.slider("Research Experience (0 = NO, 1 = YES)",0,1)
+  
   
   #uni_rating = st.selectbox(
   #   "University Rating",
