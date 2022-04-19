@@ -21,7 +21,7 @@ def main():
   #research = st.slider("Research Experience (0 = NO, 1 = YES)",0,1)
   
 
-  with st.expander("See explanation")
+  with st.expander("See explanation"):
   uni_rating = st.slider("University Rating",1,5)
   research = st.slider("Research Experience (0 = NO, 1 = YES)",0,1)
   
