@@ -3,7 +3,7 @@ import numpy as np
 import string
 import pickle
 st.set_option('deprecation.showfileUploaderEncoding',False) 
-model = pickle.load(open('gapml-pickle.pkl','rb'))
+model = pickle.load(open('pickle.pkl','rb'))
                 
 def main():
   st.markdown("<h4 style='text-align: center; font-weight: bold; background-color:#0068ff; color: white;'>Graduate Admission Predictor</h4>", unsafe_allow_html=True)
