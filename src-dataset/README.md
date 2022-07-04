@@ -1,3 +1,2 @@
 ## Source Code and Dataset
-### src.ipynb 
-### dataset.csv (500 data) (501 × 9)
+### src.ipynb, dataset.csv (500 data) (501 × 9)
