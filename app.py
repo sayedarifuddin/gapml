@@ -39,9 +39,8 @@ def main():
 
     st.info('Admission Probability: {}%'.format(updated_res))
 
-  st.markdown('#')
-  st.markdown("<h4 style='text-align: center; font-weight: bold; color: white; background-color:#0068ff'>Developed by 181006912 & 181008412</h4>", unsafe_allow_html=True)
-
+  #st.markdown('#')
+  #st.markdown("<h4 style='text-align: center; font-weight: bold; color: white; background-color:#0068ff'>Developed by 181006912 & 181008412</h4>", unsafe_allow_html=True)
 
 if __name__ =='__main__':
   main()
